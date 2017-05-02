@@ -1,0 +1,250 @@
+#newHead {
+    background-image: url('../img/maher-el-aridi-98331.jpg') !important;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /*background-position: center center;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+    background-position: left bottom;
+    background: -webkit-linear-gradient(right, 50%, #fed136 50%);
+    background: -moz-linear-gradient(right, 50%, #fed136 50%);
+    background: -o-linear-gradient(right, 50%, #fed136 50%);
+    background: linear-gradient(to left, 50%, #fed136 50%);
+    background-size: 200% 100%;
+    transition: all 8s ease;
+    height: 800px;
+}
+
+#newHead:hover {
+    background-position: right bottom;
+    animation: none;
+}
+
+#newHead .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#newHead .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+#newHead .intro-text .intro-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+    #newHead .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+    #newHead .intro-text .intro-lead-in {
+        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-style: italic;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    #newHead .intro-text .intro-heading {
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 75px;
+        margin-bottom: 50px;
+    }
+}
+
+.butt {
+    width: 200px;
+    height: 150px;
+    background-image: url(http://bit.ly/2pvK5vq);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    right: 51px;
+}
+
+.butt-1 {
+    width: 150px;
+    height: 150px;
+    background-image: url(http://bit.ly/2oHre23);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 4px;
+}
+
+.butt-2 {
+    width: 150px;
+    height: 150px;
+    background-image: url(http://bit.ly/1PYP8Km);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    right: 23px;
+}
+
+.butt-3 {
+    width: 150px;
+    height: 150px;
+    background-image: url(http://bit.ly/2pybf4z);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    right: 23px;
+}
+
+.butt-4 {
+  width: 150px;
+  height: 150px;
+  background-image: url(http://bit.ly/2psEQNt);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  right: 23px;
+}
+
+.butt-5 {
+  width: 150px;
+  height: 150px;
+  background-image: url(http://bit.ly/2phfOCo);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  right: 23px;
+}
+
+.first {
+    display: flex;
+}
+
+.page-scroll-1 {
+    color: white;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+    background-color: transparent;
+    border-color: white;
+    animation: none;
+    transition: all 4s ease;
+    display: flex;
+    width: 400px;
+    margin: auto;
+    height: 65px;
+}
+
+.page-scroll-1:hover {
+    color: white;
+    background-color: #ffd700;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    z-index: -2
+}
+
+.bg-parrolax {
+    background-image: url("../img/artem-sapegin-176819.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*.box {
+  width: 23px;
+height: 68px;
+border-color: transparent;
+ background-color: blue;
+position: relative;
+left: 363px;
+top: 67px;
+border-bottom-right-radius: 50%;
+border-top-right-radius: 50%;
+border-top-style: solid;
+border-bottom-style: solid;
+border-width: 1px;
+}*/
+
+.box-2 {
+    width: 60px;
+    height: 60px;
+    /*background-color: blue;*/
+    border-radius: 50%;
+    /*border-top-style: solid;*/
+    border-right-style: solid;
+    position: relative;
+    bottom: 18px;
+    left: 5px;
+    border-color: transparent;
+}
+
+/*.box-2:hover {
+    border-color: #A52A2A;
+    animation: none;
+    transition: all 4s ease;
+}*/
+
+.bullet {
+    position: relative;
+    /*left: 15px;*/
+    top: 0px;
+    height: 60px;
+    width: 300px;
+    line-height: 56px;
+    color: white;
+}
+
+.skillbg {
+    width: 100vw;
+    height: 460px;
+    background-color: white;
+}
+
+.skills-heading {
+    color: black;
+    position: relative;
+    bottom: 60px;
+    font-size: 40px;
+}
+
+.img-circle-1 {
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+}
+
+.contact-git-left {
+    color: white;
+    font-size: 20px;
+}
+
+.contact-git {
+    color: white;
+    font-size: 20px;
+}
+
+.github {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: relative;
+    top: 10px;
+}
