@@ -16,7 +16,7 @@
     background: linear-gradient(to left, 50%, #fed136 50%);
     background-size: 200% 100%;
     transition: all 8s ease;
-    height: 800px;
+    
 }
 
 #newHead:hover {
