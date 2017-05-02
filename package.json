@@ -3,10 +3,9 @@
   "title": "Agency",
   "version": "3.3.7+1",
   "homepage": "http://startbootstrap.com/template-overviews/agency",
-  "author": "Start Bootstrap",
+  "author": "Juston Perkins",
   "license": {
-    "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+    "type": "MIT"
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
@@ -23,6 +22,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
+    "url": "https://github.com/juston_perkins_portfolio.git"
   }
 }
