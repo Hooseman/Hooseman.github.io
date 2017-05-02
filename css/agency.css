@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
@@ -63,7 +63,6 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
-
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
@@ -110,10 +109,7 @@ fieldset[disabled] .btn-primary.active {
   border-radius: 3px;
   font-size: 18px;
   padding: 20px 40px;
-
 }
-
-
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
@@ -229,8 +225,8 @@ fieldset[disabled] .btn-xl.active {
     font-size: 1.5em;
   }
 }
-header.newHead {
-  background-image: url(http://bit.ly/2pvK5vq)!important;
+header {
+  background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
